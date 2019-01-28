@@ -1,0 +1,232 @@
+html{
+    font-size:18px;
+    font-family:'Merriweather',serif;
+
+}
+
+
+body {
+  margin: 0;
+  }
+
+
+/* header */
+
+.sitecontainer{
+    width:100%;
+}
+
+
+.headercolmar nav a {
+    text-decoration:none;
+    position: relative;
+    bottom:109px;
+    padding:5px;
+    left:999px;
+   
+}
+
+.headercolmar h1{
+    position:relative;
+    bottom:58px;
+    left:60px;
+}
+
+
+
+
+.headercolmar img{
+    margin-left:26px;
+    position:relative;
+    Top:7px;
+    
+}
+
+/* First part */
+.Firstpart{
+    background-color:grey;
+ 
+}
+
+.Firstpart img{
+    width:56%;
+    padding-left:24px;
+    padding-bottom:32px;
+    padding-top:32px;
+    padding-right:24px;
+}
+
+.Firstpart h1{
+    
+    padding-left:24px;
+}
+
+.Firstpart p{
+    
+    padding-left:24px;
+}
+
+ .clickme{
+    
+    margin-left:24px;
+}
+
+/* Second part */
+.leftpart img{
+    width:64%;
+    padding-top:32px;
+    padding-bottom:32px;
+    padding-left:24px;
+   
+}
+
+
+
+.second{
+    padding-bottom:2rem;
+}
+
+
+
+.container{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom:32px;
+}
+
+
+
+
+
+.leftpart h2{
+    padding-left:62px;
+  
+}
+
+.leftpart p{
+padding-left:62px;
+}
+
+.newclass{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.container2 img{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.container img {
+    display:flex;
+   
+}
+.container2 h1 {
+    display:flex;
+    justify-content:flex-end;
+}
+.imagecontainer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.container2 p {
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+
+/* Third part */
+
+.learningcontainer{
+   display:flex;
+   flex-direction:row;
+ 
+}
+
+.learningcontainer img{
+    width:78%;
+}
+
+.start{
+    text-align:center;
+}
+
+.startcontainer{
+   display:flex;
+ flex-direction:row;
+ 
+   
+    
+}
+
+.startcontainer img{
+    width:78%
+}
+
+
+
+
+
+
+
+
+/* Third part */
+
+.secondthesis video{
+   width:49%;
+   padding-left:24px;
+   padding-right:24px;
+
+}
+
+.secondthesis h2{
+ padding-left:20px;
+}
+
+.secondthesis p{
+    padding-left:20px;
+}
+
+.thesispart h1{
+    text-align:center;
+}
+
+.txtthesis p{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.txtthesis h3{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.imagethesis img{
+    display:flex;
+    justify-content: flex-end;
+   
+}
+
+.mediacontainerthesis {
+    display:flex;
+    justify-content: flex-end;
+  
+
+}
+
+.secondimage{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.txtimage h3 {
+display:flex;
+justify-content:flex-end;
+}
+
+.txtimage p{
+    display:flex;
+    justify-content: flex-end;
+}

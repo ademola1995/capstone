@@ -56,6 +56,7 @@ body {
     padding-right:24px;
 }
 
+
 .Firstpart h1{
     
     padding-left:24px;
@@ -80,7 +81,10 @@ body {
    
 }
 
-
+.info{
+ display:flex;
+  
+}
 
 .second{
     padding-bottom:2rem;
@@ -226,7 +230,18 @@ display:flex;
 justify-content:flex-end;
 }
 
-.txtimage p{
+.txtimage {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.mediacontainerthesis img {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.info{
     display:flex;
     justify-content: flex-end;
 }

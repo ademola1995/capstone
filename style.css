@@ -45,6 +45,7 @@ body {
 /* First part */
 .Firstpart{
     background-color:grey;
+    height:678px;
  
 }
 
@@ -158,6 +159,7 @@ padding-left:62px;
 .learningcontainer{
    display:flex;
    flex-direction:row;
+   padding-left:89px;
  
 }
 
@@ -172,6 +174,7 @@ padding-left:62px;
 .startcontainer{
    display:flex;
  flex-direction:row;
+ padding-left:89px;
  
    
     

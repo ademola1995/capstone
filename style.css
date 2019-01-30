@@ -57,6 +57,11 @@ body {
     padding-right:24px;
 }
 
+.Firstpart .startt{
+      margin-right:160px;
+      height:100px;
+    
+}
 
 .Firstpart h1{
     display:flex;
@@ -87,9 +92,9 @@ body {
 
 /* Second part */
 .leftpart img{
-    width:64%;
+    width:74%;
     padding-top:32px;
-    padding-bottom:32px;
+    padding-bottom:42px;
     padding-left:24px;
    
 }
@@ -103,15 +108,22 @@ body {
     padding-bottom:2rem;
 }
 
-
+.backgroundcolor{
+    background-color:grey;
+}
 
 .container{
     display:flex;
     justify-content: flex-end;
     margin-bottom:32px;
+    padding-top:84px;
 }
 
-
+.details{
+    position:relative;
+    top:110px;
+    padding-left:1rem;
+}
 
 
 
@@ -136,6 +148,7 @@ padding-left:62px;
 
 .container img {
     display:flex;
+    padding-bottom
    
 }
 .container2 h1 {
@@ -171,6 +184,10 @@ padding-left:62px;
     text-align:center;
 }
 
+.details p {
+    text-decoration: none;
+}
+
 .startcontainer{
    display:flex;
  flex-direction:row;
@@ -194,7 +211,7 @@ padding-left:62px;
 /* Third part */
 
 .secondthesis video{
-   width:49%;
+   width:92%;
    padding-left:24px;
    padding-right:24px;
 
@@ -264,4 +281,56 @@ justify-content:flex-end;
 .infonow{
     display:flex;
     justify-content: flex-end;
+}
+.classtype2{
+    display:flex;
+}
+
+.infonow{
+    display:flex;
+}
+
+.secondinfo{
+     display: flex;
+}
+
+ .fisma {
+  padding-top:92px;
+}
+
+.secondthesis h1{
+    text-align:right;
+}
+
+.infox h3{
+    position: relative;
+    top:99px;
+    padding-left:1rem;
+}
+
+.infox p{
+    position:relative;
+    top:90px;
+    padding-left:1rem;
+}
+
+ .infox .noww{
+     position:relative;
+     top:64px;
+
+ }
+
+ .infox .now{
+     position:relative;
+     right:17px;
+     bottom:17px;
+     padding-left:1rem;
+}
+
+
+
+
+/* Footer*/
+footer h4{
+    padding-left:20px;
 }

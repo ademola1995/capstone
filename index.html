@@ -30,7 +30,8 @@
          <img class="banner" src="./images/banner.jpg" alt="banner">
          <h1>Learn something new everyday</h1>
          <p>Lorem ipsum dolor sit amet, <br>Consecteur adispscing elit<br></p>
-         <p class="clickme">Start here</p>
+         <p class="startt"><button>Start here </button></p>
+     
 
      </div>
 
@@ -59,6 +60,7 @@
                     <div class="details">
                       <H1>Orientataion date</H1>
                       <p>Tue 10/11 & Wed 10/12:8am-3pm</p>
+                      <p><a href="#">Read More</a></p></p>
                     
                     </div>
                 </div>
@@ -96,7 +98,7 @@
 
 	  
                 <!---Second part-->       
-                  
+                  <div class="backgroundcolor">
                 <div class="start">
             <h1>Start Learning</h1>
            </div> 
@@ -144,38 +146,45 @@
                         <p>Product Development, Business Development, Startup</p>
                     </div>
                 </div>
-                
+            </div> 
     <!----Fifth part-->
-    <div class="thesispart">
-        <h1>Thesis Exhibit</h1>
-        </div>
-        
-        <div class="secondthesis">
-        <video src="./videos/thesis.mp4"></video>
-            <h2>Reimargine urban</h2>
-            <p>"Curbatiur vitae lubero . Aliquam et commod lectus, nec <br> consequat neque. Sed non accusman urna.Phasellus sed consequat <br></p>
-         </div>
+   
          
-        <div class="column2information">
-            <div class="infonow">
-               <div class="container">
-                <img src="./images/thesis-fisma.jpg" alt="">
-              </div>
-              <div class="info">
-               <h3>Fisma:Design and Prototype</h3>
-                <p>Designer Showcase of new prototpe and product</p>
-               </div>
-
-              <div class="container">
-                <img src="./images/thesis-now-and-then.jpg" alt="">
-               </div>
+         <div class="classtype2"> <!--This is a new class I created. You needed a div to hold your class 'secondthesis' and column 2 information -->
+            <div class="secondthesis">
+                <h1>Thesis Exhibit</h1>
+            <video src="./videos/thesis.mp4"></video>
+                <h2>Reimargine urban</h2>
+                <p>"Curbatiur vitae lubero . Aliquam et commod lectus, nec <br> consequat neque. Sed non accusman urna.Phasellus sed consequat" <br></p>
+             </div>
              
-               <div class="info">
-                 <h3>Now and then</h3>
-                 <p>Research Study about New york</p>
-               </div>
+            <div class="column2information">
+                <div class="infonow">
+                <div class="containers">
+                    <img class ="fisma"src="./images/thesis-fisma.jpg" alt="">
+                  </div>
+                  <div class="infox">
+                   <h3>Fisma:Design and Prototype</h3>
+                    <p>Designer Showcase of new prototpe and product</p>
+                   </div>
+                  </div>
+        
+                  <div class="secondinfo"> <!--You need to contain your info divs seperatly, otherwise when you use 'display: flex;' on your 'column2information' class, your info sections will show up beside eachother rather then ontop of one another.-->
+                  <div class="infox">
+                    <img src="./images/thesis-now-and-then.jpg" alt="">
+                   </div>
+                 
+                   <div class="infox">
+                     <h3 class ="noww">Now and then</h3>
+                     <p class ="now">Research Study about New york</p>
+                   </div>
+                  </div>
+                </div>
             </div>
-        </div>
+        
+            <footer>
+                    <h4>&copy; 2016 Colmar Academy .All rights reserved</h4>
+            </footer>
    
 
 </body>

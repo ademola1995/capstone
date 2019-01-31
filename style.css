@@ -1,6 +1,7 @@
 html{
     font-size:18px;
     font-family:'Merriweather',serif;
+    font-weight:bold;
 
 }
 
@@ -42,6 +43,10 @@ body {
     
 }
 
+
+nav:first-child h1{
+    color:blue;
+}
 /* First part */
 .Firstpart{
     background-color:grey;
@@ -104,8 +109,9 @@ body {
   
 }
 
-.startt{
-    width:300px;
+button {
+    width: 15rem;
+    margin-left: 3rem;
 }
 
 .second{
@@ -169,7 +175,29 @@ padding-left:62px;
     justify-content: flex-end;
 }
 
+.color{
+    background-color:red;
+    width:78%;
+}
 
+.color h1{
+    padding-left:16px;
+   
+}
+
+.color{
+
+}
+
+.color p{
+    padding-left:16px;
+    padding-bottom:24px;
+}
+
+.start{
+    padding-top:32px;
+    padding-bottom:32px;
+}
 
 /* Third part */
 
@@ -280,6 +308,12 @@ justify-content:flex-end;
 .info{
     display:flex;
     justify-content: flex-end;
+    transition-property: background-color 200ms linear;
+    
+}
+
+.info:hover{
+    background-color:grey;
 }
 
 .infonow{
@@ -328,7 +362,7 @@ justify-content:flex-end;
      position:relative;
      right:17px;
      bottom:17px;
-     padding-left:1rem;
+     padding-left:2rem;
 }
 
 

@@ -100,27 +100,30 @@ nav:first-child h1{
 }
 
 .btnstart{
-    margin-top: -20rem;}
+    margin-top: -20rem;
+   position: relative;
+   right:120px;
+  
+    
+}
 
 button {
-   
-    margin-left: 3rem;
     position: relative;
     left:990px;
     border-radius:4px;
+  
+   
+
     
-        
-        
-        
+    }
 
-}
+    .startt{
+        width:34%;
+        
+     
+    }
 
 
-button {
-    width: 15rem;
-    margin-left: 3rem;
-    position: relative;
-}
 
 
 

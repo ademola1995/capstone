@@ -432,8 +432,7 @@ justify-content:flex-end;
 
 
 footer{
-    background-color:grey;
-   
+    
 }
 
 
@@ -459,6 +458,8 @@ ul li{
   
 }
 
-
+ul li:hover{
+    background-color:grey;
+}
 
 

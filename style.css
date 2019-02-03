@@ -21,19 +21,24 @@ body {
 .headercolmar nav a {
     text-decoration:none;
     position: relative;
-    bottom:109px;
+    
+    /*bottom:109px;
     padding:5px;
     left:999px;
    
 }
 
+
+.headercolmar{
+    display:flex;
+}
 .headercolmar h1{
     position:relative;
     bottom:58px;
     left:60px;
 }
 .headercolmar h1{
-    font-size: 1.5rem;
+    font-size: 1.5rem;*/
 }
 
 strong{

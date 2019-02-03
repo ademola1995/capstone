@@ -54,14 +54,18 @@ nav:first-child h1{
 }
 
 .mobile{
-    display:none;
+display:none;
 }
 @media only screen and (max-width:600px){
         .mobile{
             display:inline-flex;
             justify-content: space-around;
-
+            flex:1;
         } 
+
+        .nav .headercolmar{
+            display:none;
+        }
 }
 
 /* First part */

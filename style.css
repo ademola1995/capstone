@@ -17,7 +17,10 @@ body {
     width:100%;
 }
 
-
+.headercolmar{
+    display:flex;
+    flex-direction:row;
+}
 .headercolmar nav a {
     text-decoration:none;
     position: relative;
@@ -29,9 +32,8 @@ body {
 }
 
 
-.headercolmar{
-    display:flex;
-}
+
+
 .headercolmar h1{
     position:relative;
     bottom:58px;

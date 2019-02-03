@@ -101,8 +101,7 @@ display:none;
 
 .Firstpart .startt{
       margin-right:160px;
-      height:100px;
-    
+      
 }
 
 .Firstpart h1{
@@ -110,9 +109,10 @@ display:none;
     justify-content:flex-end;
     padding-left:24px;
     position: relative;
-    bottom:399px;
+   
     margin-right:45px;
 
+    
 }
 
 .Firstpart p{

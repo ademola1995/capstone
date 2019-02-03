@@ -17,6 +17,13 @@ body {
     width:100%;
 }
 
+.logo{
+    flex-grow:1;
+}
+
+
+
+
 .headercolmar{
     display:flex;
     flex-direction:row;
@@ -24,6 +31,7 @@ body {
 .headercolmar nav a {
     text-decoration:none;
     position: relative;
+    padding-right:10px;
     
     /*bottom:109px;
     padding:5px;

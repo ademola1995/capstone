@@ -87,7 +87,8 @@ display:none;
 
 .Firstpart{
     background-color:grey;
-    height:678px;
+    display:flex;
+    flex-direction:row;
  
 }
 
@@ -119,8 +120,7 @@ display:none;
     display:flex;
     justify-content: flex-end;
     position: relative;
-    bottom:399px;
-    margin-right:82px;
+  margin-right:82px;
 }
 
  .Firstpart .clickme{
@@ -131,16 +131,15 @@ display:none;
 }
 
 .btnstart{
-    margin-top: -20rem;
    position: relative;
-   right:120px;
+  
   
     
 }
 
 button {
     position: relative;
-    left:990px;
+    
     border-radius:4px;
 
   

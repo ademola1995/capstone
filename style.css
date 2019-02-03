@@ -420,11 +420,13 @@ justify-content:flex-end;
 }
 
  .fisma {
-  padding-top:92px;
+  
 }
 
 .secondthesis h1{
     text-align:right;
+    display:flex;
+    justify-content: center;
 }
 
 .infox h3{
@@ -455,7 +457,7 @@ justify-content:flex-end;
 
 
 .containers{
-    margin-bottom:90px;
+
 }
 
 

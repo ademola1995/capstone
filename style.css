@@ -39,6 +39,14 @@ body {
    flex:1;
 }
 
+@media only screen and (max-width:600px){
+    .headercolmar{
+        ;
+    } 
+
+   
+}
+
 .headercolmar nav a {
     text-decoration:none;
     position: relative;
@@ -81,17 +89,25 @@ display:none;
 }
 @media only screen and (max-width:600px){
         .mobilenav{
-            display:inline;
-            
-            
-            
-          
-            
-        } 
+          padding:0;
+    } 
 
         
 }
 
+
+ul.mobilenav{
+
+}
+
+
+@media only screen and (max-width:600px){
+    ul.mobilenav{
+        padding:0;
+    } 
+
+   
+}
 /* First part */
 
 .Firstpart{

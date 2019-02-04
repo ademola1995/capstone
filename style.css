@@ -81,9 +81,12 @@ display:none;
 }
 @media only screen and (max-width:600px){
         .mobilenav{
-            display:flex;
-           justify-content: flex-end;
-           
+            display:inline;
+            
+            
+            
+          
+            
         } 
 
         
@@ -104,6 +107,16 @@ display:none;
    justify-content: center;
 }
 
+@media only screen and (max-width:600px){
+    .firsttxt p{
+        display:none;
+    } 
+
+   
+}
+
+
+
 .Firstpart img{
     width:56%;
     padding-left:24px;
@@ -111,6 +124,15 @@ display:none;
     padding-top:32px;
     padding-right:24px;
 }
+
+@media only screen and (max-width:600px){
+    .Firstpart img{
+        width:87%;
+    } 
+
+   
+}
+
 
 .Firstpart .startt{
       margin-right:160px;
@@ -122,7 +144,7 @@ display:none;
 
 @media only screen and (max-width:600px){
     .navbars nav {
-        display:none;
+       display:none;
     } 
 
    
@@ -141,6 +163,17 @@ display:none;
     
 }
 
+@media only screen and (max-width:600px){
+    .Firstpart h1 {
+        width:100%;
+        padding:0;
+    } 
+
+   
+}
+
+
+
 .Firstpart p{
     display:flex;
     justify-content: flex-end;
@@ -148,7 +181,18 @@ display:none;
   margin-right:82px;
 }
 
- .Firstpart .clickme{
+@media only screen and (max-width:600px){
+    .Firstpart p {
+        display:none;
+    } 
+
+   
+}
+
+
+ 
+
+.Firstpart .clickme{
     display:flex;
     align-content:flex-end;
     margin-right:98px;
@@ -171,9 +215,18 @@ button {
    cursor: pointer;
    
 
-    
     }
 
+    @media only screen and (max-width:600px){
+        button {
+            display:none;
+        } 
+    
+       
+    }
+    
+   
+   
     .startt{
         width:34%;
         

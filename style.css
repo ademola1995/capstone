@@ -21,7 +21,15 @@ body {
    flex:1;
    
 }
+@media only screen and (max-width:600px){
+    .logo{
+        display:none;
+        
+       
+    } 
 
+    
+}
 
 
 
@@ -63,23 +71,22 @@ strong{
 }
 
 
+
 nav:first-child h1{
     color:blue;
 }
 
-.mobile{
+.mobilenav{
 display:none;
 }
 @media only screen and (max-width:600px){
-        .mobile{
-            display:inline-flex;
-            justify-content: space-around;
-            flex:1;
+        .mobilenav{
+            display:flex;
+           justify-content: flex-end;
+           
         } 
 
-        .nav .headercolmar{
-            display:none;
-        }
+        
 }
 
 /* First part */
@@ -109,9 +116,20 @@ display:none;
       margin-right:160px;
       
 }
-.navbars{
+.navbars nav{
     margin-bottom:34px;
 }
+
+@media only screen and (max-width:600px){
+    .navbars nav {
+        display:none;
+    } 
+
+   
+}
+
+
+
 .Firstpart h1{
     display:flex;
     justify-content:flex-end;
@@ -273,22 +291,6 @@ padding-left:62px;
     padding-bottom:32px;
 }
 
-.start6 .color{
-  
-}
-
-.start7 .color{
-   
-}
-
-.start5 .color{
-   
-}
-
-
-.start2 .color{
-    padding-top:
-}
 
 
 /* Third part */

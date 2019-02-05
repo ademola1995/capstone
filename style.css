@@ -678,7 +678,13 @@ justify-content:flex-end;
     
     
 }
+@media only screen and (max-width:600px){
+    .infonow {
+        display:none;
+    } 
 
+   
+}
 
 .infox:hover{
     background-color:grey;
@@ -704,6 +710,15 @@ justify-content:flex-end;
     
 }
 
+@media only screen and (max-width:600px){
+    .infox h3 {
+        display:none;
+    } 
+
+   
+}
+
+
 .infox p{
    padding-left:1rem;
     
@@ -716,11 +731,23 @@ justify-content:flex-end;
 
  }
 
+ .infox img{
+
+ }
+
  .infox .now{
      padding-right:2rem;
 }
 
-
+@media only screen and (max-width:600px){
+    .infox .now{
+        display:none;
+    } 
+.infox img{
+    display: none;
+}
+   
+}
 
 
 /* Footer*/

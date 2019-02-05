@@ -89,15 +89,21 @@ display:none;
 }
 @media only screen and (max-width:600px){
         .mobilenav{
-          padding:0;
-    } 
+          display:flex;
+          justify-content: center;
+    
+        } 
+        .headercolmar{
+            display:flex;
+            justify-content: center;
+        }
 
         
 }
 
 
 ul.mobilenav{
-
+   
 }
 
 
@@ -116,6 +122,18 @@ ul.mobilenav{
     flex-direction:row;
  
 }
+
+@media only screen and (max-width:600px){
+    .Firstpart  {
+        display:flex;
+        flex-direction:row;
+        width:100%;
+    } 
+
+   
+}
+
+
 
 
 .firsttxt p{
@@ -143,7 +161,7 @@ ul.mobilenav{
 
 @media only screen and (max-width:600px){
     .Firstpart img{
-        width:87%;
+        width:97%;
     } 
 
    
@@ -181,8 +199,9 @@ ul.mobilenav{
 
 @media only screen and (max-width:600px){
     .Firstpart h1 {
-        width:100%;
-        padding:0;
+        display:flex;
+        flex-direction:column;
+     
     } 
 
    
@@ -199,8 +218,9 @@ ul.mobilenav{
 
 @media only screen and (max-width:600px){
     .Firstpart p {
-        display:none;
-    } 
+        display:flex;
+        flex-direction: column;
+    }
 
    
 }
@@ -262,6 +282,16 @@ button {
    
 }
 
+@media only screen and (max-width:600px){
+    .leftpart img {
+        display:none;
+    } 
+
+   
+}
+
+
+
 .column2information {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -306,10 +336,29 @@ button {
     padding-left:62px;
   
 }
+@media only screen and (max-width:600px){
+    .leftpart h2 {
+        display:none;
+    } 
+
+   
+}
 
 .leftpart p{
 padding-left:62px;
 }
+
+@media only screen and (max-width:600px){
+    .leftpart p {
+        display:none;
+    } 
+
+   
+}
+
+
+
+
 
 .newclass{
     display:flex;
@@ -582,5 +631,4 @@ ul li{
 ul li:hover{
     background-color:grey;
 }
-
 

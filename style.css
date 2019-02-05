@@ -92,7 +92,7 @@ display:none;
         } 
         .headercolmar{
             display:flex;
-            justify-content: center;
+            justify-content: center ;
         }
 
         
@@ -159,7 +159,9 @@ ul.mobilenav{
 
 @media only screen and (max-width:600px){
     .Firstpart img{
-        width:97%;
+        width:92%;
+        padding-left:1rem;
+
     } 
 
    
@@ -268,7 +270,15 @@ button {
      
     }
 
-
+    @media only screen and (max-width:600px){
+        .startt {
+            margin-bottom:45px;
+            color:grey
+        } 
+    
+       
+    }
+    
 
 
 
@@ -298,7 +308,8 @@ button {
 
 @media only screen and (max-width:600px){
     .column2information {
-      display:none;
+      display:flex;
+      flex-direction:column;
 
     } 
 
@@ -485,6 +496,7 @@ padding-left:62px;
 
    .marketing{
        background-color:lightgrey;
+       padding-bottom:24px;
    }
 
    .data{

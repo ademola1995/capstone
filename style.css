@@ -17,6 +17,9 @@ body {
     width:100%;
 }
 
+
+
+
 .logo{
    flex:1;
    
@@ -39,13 +42,7 @@ body {
    flex:1;
 }
 
-@media only screen and (max-width:600px){
-    .headercolmar{
-        ;
-    } 
 
-   
-}
 
 .headercolmar nav a {
     text-decoration:none;
@@ -126,7 +123,7 @@ ul.mobilenav{
 @media only screen and (max-width:600px){
     .Firstpart  {
         display:flex;
-        flex-direction:row;
+        flex-direction:column;
         width:100%;
     } 
 
@@ -297,6 +294,15 @@ button {
     margin-bottom: 1rem;
 }
 
+@media only screen and (max-width:600px){
+    .column2information {
+      display:none;
+
+    } 
+
+   
+}
+
 
 .info{
  display:flex;
@@ -317,6 +323,15 @@ button {
 .backgroundcolor{
     background-color:grey;
 }
+
+@media only screen and (max-width:600px){
+    .backgroundcolor {
+       background-color: lightgrey;
+    } 
+
+   
+}
+
 
 .container{
     display:flex;
@@ -404,10 +419,84 @@ padding-left:62px;
     padding-bottom:24px;
 }
 
+
+@media only screen and (max-width:600px){
+    .color {
+        display:none;
+    } 
+
+   
+}
+
+
 .start{
     padding-top:32px;
     padding-bottom:32px;
 }
+
+.coursemobile li{
+
+}
+
+.software{
+
+}
+
+.computer{
+
+}
+
+.design{
+
+}
+
+.data{
+
+}
+
+.business{
+
+}
+
+.marketing{
+
+}
+
+@media only screen and (max-width:600px){
+    .coursemobile li {
+         display:block;
+         padding-top:1rem;
+         margin-right:90px;
+         text-align:center;
+     
+       
+      
+        
+    } 
+   .software {
+       background-color: lightgray;
+   }
+
+   .business{
+       background-color:lightgrey;
+   }
+
+   .marketing{
+       background-color:lightgrey;
+   }
+
+   .data{
+       background-color:lightgrey;
+   }
+
+   .computer{
+       background-color:lightgrey;
+   }
+}
+
+
+
+
 
 
 
@@ -421,6 +510,17 @@ padding-left:62px;
 
  
 }
+
+@media only screen and (max-width:600px){
+    .learningcontainer{
+        display:none;
+    } 
+
+   
+}
+
+
+
 
 .learningcontainer img{
     width:78%;
@@ -440,9 +540,16 @@ padding-left:62px;
  flex-direction:row;
  padding-left:89px;
  
-   
-    
 }
+
+@media only screen and (max-width:600px){
+    .startcontainer {
+        display:none;
+    } 
+
+   
+}
+
 
 .startcontainer img{
     width:78%
@@ -453,9 +560,11 @@ padding-left:62px;
     width:78%;
 }
 
-.start3 img{
-     
-}
+
+
+
+
+
 
 
 

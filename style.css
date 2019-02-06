@@ -708,6 +708,10 @@ justify-content:flex-end;
     
 }
 
+
+.infonow img{
+    padding-top:45px;
+}
 .infonow:hover{
     background-color:grey;
   
@@ -723,7 +727,7 @@ justify-content:flex-end;
    
 }
 
-.infox:hover{
+.infonow:hover{
     background-color:grey;
 }
 .secondinfo:hover{
@@ -747,6 +751,7 @@ justify-content:flex-end;
 .infox h3{
     position: relative;
     padding-left:1rem;
+    padding-top:45px;
    
     
 }
@@ -772,13 +777,8 @@ justify-content:flex-end;
 
  }
 
- .infox img{
+ 
 
- }
-
- .infox .now{
-     padding-right:2rem;
-}
 
 @media only screen and (max-width:600px){
     .infox .now{

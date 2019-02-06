@@ -781,13 +781,15 @@ justify-content:flex-end;
 
 
 @media only screen and (max-width:600px){
-    .infox .now{
+    .infoxx .now{
         display:none;
     } 
-.infox img{
+.infoxx img{
     display: none;
 }
-   
+   .infoxx .noww{
+       display:none;
+   }
 }
 
 .infonow{

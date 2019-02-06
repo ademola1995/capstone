@@ -10,9 +10,11 @@ body {
   margin: 0;
   }
 
-
+/*if you could help that will be grateful */
+/* also played around wit the mobile . i hope that is acceptable */
 /* header */
 
+/* I have a problem with the header as i am trying to make sure they are inline with eachother but no luck also the start part thathas the background color red they are not inline to dont know why */
 .sitecontainer{
     width:100%;
 }
@@ -34,12 +36,15 @@ body {
     
 }
 
-
+.headercolmar strong{
+   color:blue;
+}
 
 .headercolmar{
     display:flex;
    justify-content: flex-end;
    flex:1;
+   
 }
 
 
@@ -48,6 +53,7 @@ body {
     text-decoration:none;
     position: relative;
     padding-right:10px;
+ 
     
     /*bottom:109px;
     padding:5px;
@@ -63,10 +69,7 @@ body {
     font-size: 1.5rem;*/
 }
 
-strong{
-    font-weight:bold;
-    color:black;
-}
+
 
 .headercolmar img{
     margin-left:26px;
@@ -194,6 +197,11 @@ ul.mobilenav{
 
 
     
+}
+
+.firsttxt h1 {
+   
+   padding-top:90px;
 }
 
 @media only screen and (max-width:600px){
@@ -718,6 +726,10 @@ justify-content:flex-end;
 .infox:hover{
     background-color:grey;
 }
+.secondinfo:hover{
+    background-color:grey;
+
+}
 .secondinfo{
      display: flex;
 }
@@ -778,7 +790,19 @@ justify-content:flex-end;
    
 }
 
+.infonow{
+    padding-bottom:20px;
+    padding-top:20px;
+ 
+}
 
+.infoxx .noww{
+    padding-left:1rem;
+}
+
+.infoxx .now{
+    padding-left:1rem;
+}
 /* Footer*/
 
 

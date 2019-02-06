@@ -150,7 +150,7 @@ ul.mobilenav{
 
 
 .Firstpart img{
-    width:56%;
+    width:66%;
     padding-left:24px;
     padding-bottom:32px;
     padding-top:32px;
@@ -189,9 +189,9 @@ ul.mobilenav{
 .Firstpart h1{
     display:flex;
     justify-content:flex-end;
-    padding-left:24px;
-    position: relative;
     margin-right:45px;
+   
+
 
     
 }
@@ -212,9 +212,9 @@ ul.mobilenav{
 
 .Firstpart p{
     display:flex;
-    justify-content: flex-end;
-    position: relative;
-  margin-right:82px;
+    justify-content: center;
+    margin-right:82px;
+    padding-right:8rem;
 }
 
 @media only screen and (max-width:600px){
@@ -459,6 +459,7 @@ padding-left:62px;
 }
 
 .coursemobile li{
+display:none;
 
 }
 
@@ -535,7 +536,9 @@ padding-left:62px;
 }
 
 
-
+.mobiles{
+    display:none;
+}
 
 
 

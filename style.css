@@ -201,6 +201,7 @@ ul.mobilenav{
         display:flex;
         flex-direction:column;
         padding-left:1rem;
+        font-weight: bold;
      
     } 
 
@@ -353,6 +354,16 @@ button {
     
 }
 
+
+@media only screen and (max-width:600px){
+    .container {
+       display:none;
+    } 
+
+   
+}
+
+
 .details{
     position:relative;
     padding-left:1rem;
@@ -481,6 +492,8 @@ padding-left:62px;
          padding-top:1rem;
          margin-right:90px;
          text-align:center;
+         padding-left:16px;
+         padding-bottom:16px;
      
        
       
@@ -488,10 +501,17 @@ padding-left:62px;
     } 
    .software {
        background-color: lightgray;
+       padding-left:16px;
+        padding-bottom:16px;
+     
+
    }
 
    .business{
        background-color:lightgrey;
+       padding-left:16px;
+       padding-bottom:16px;
+     
    }
 
    .marketing{
@@ -501,10 +521,16 @@ padding-left:62px;
 
    .data{
        background-color:lightgrey;
+       padding-left:16px;
+       padding-bottom:16px;
+     
    }
 
    .computer{
        background-color:lightgrey;
+       padding-left:16px;
+       padding-bottom:16px;
+     
    }
 }
 

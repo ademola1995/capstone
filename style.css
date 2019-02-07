@@ -80,9 +80,7 @@ body {
 
 
 
-nav:first-child h1{
-    color:blue;
-}
+
 
 .mobilenav{
 display:none;
@@ -145,6 +143,7 @@ ul.mobilenav{
 @media only screen and (max-width:600px){
     .firsttxt p{
         display:none;
+
     } 
 
    
@@ -266,6 +265,7 @@ button {
     @media only screen and (max-width:600px){
         button {
             margin-bottom:45px;
+           
         } 
     
        
@@ -365,7 +365,7 @@ button {
 
 @media only screen and (max-width:600px){
     .container {
-       display:none;
+      
     } 
 
    
@@ -419,9 +419,11 @@ padding-left:62px;
 
 .container img {
     display:flex;
+
     
    
 }
+
 .container2 h1 {
     display:flex;
     justify-content:flex-end;
@@ -584,6 +586,18 @@ display:none;
 
 .details p {
     text-decoration: none;
+}
+
+.info .mobileimg{
+       
+ }
+
+@media only screen and (max-width:600px){
+    .column2information {
+           
+    } 
+
+   
 }
 
 .startcontainer{
